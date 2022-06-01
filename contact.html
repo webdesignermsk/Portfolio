@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="Logobar.png">
+    <title>WADE</title>
+</head>
+<body data-barba="wrapper">
+
+    <div class="wipe-transition"> <img src="Logo transit.png" alt=""></div>
+
+
+    <div id="myNav" class="overlay">
+
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a href="index.html" onclick="closeNav(), topFunction()">Home</a>
+            <a href="about.html " onclick="closeNav(), topFunction()">About</a>
+            <a href="work.html" onclick="closeNav()">Work</a>
+            <a href="contact.html" onclick="closeNav()">Contact</a>
+            <!-- <a href="Contact.html" onclick="closeNav()">Contact</a> -->
+        </div>
+
+    </div>
+
+
+
+    <span class="burger flexburger" onclick="openNav()">
+        <div></div>
+        <div></div>
+        <div></div>
+    </span>
+
+    <main data-barba="container" data-barba-namespace="home" class="main">
+        <div class=" absolute flexcenter links">
+            <a target="blank" class="an1" href="https://www.linkedin.com/in/mouhamed-wade-5755ba21b/"><img src="LINKEDIN.png" alt=""></a>
+            <a target="blank" class="an2" href="https://www.instagram.com/wade.desgn/"><img src="INSTA.png" alt=""></a>
+            <a target="blank" class="an3" href="mailto:wademouhamed77@gmail.com"><img src="MAIL.png" alt=""></a>
+        </div>
+        <div class="bgcontact"></div>
+        <div class="contact-container">
+            <H1>CONTACT</H1>
+            <form action="https://formsubmit.co/wademouhamed77@gmail.com" method="POST">
+                <div class="infocontainer">
+                    <input class="inputtxt r1" placeholder="NOM" type="text" name="name" required>
+                    <h3>&</h3>
+                    <input class="inputtxt r2" placeholder="EMAIL" type="email" name="email" required>
+                </div>
+            <div class="subcontainer">
+                <input class="submit" type="submit">
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            </form>
+            <p>Si vous souhaitez me contacter, vous pouvez passer par mon CV qui contient toutes mes informations. Vous pouvez également passer par le formulaire ci-dessus et vous serz rapidement recontactés.</p>
+
+        </div>
+
+    </main>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.1/gsap.min.js"></script>
+        <script src="https://unpkg.com/@barba/core"></script>   
+        <script src="app.js"></script>
+</body>
+</html>
+
