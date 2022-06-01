@@ -34,12 +34,11 @@
     text-align: center;
     font-size: 3em;
     cursor: pointer;
-    transition: 0.2s;
 }
 
-.burger:hover{
+/* .burger:hover{
     width: 80px;
-}
+} */
 
 .flexburger{
     position: fixed;
@@ -49,6 +48,11 @@
     justify-content: center;
     gap: 15%;
     align-items: center;
+    transition: 0.3s;
+
+}
+.flexburger:hover{
+    gap: 30%;
 }
 
 .burger div{
