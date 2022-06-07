@@ -178,7 +178,7 @@ body{
 
 .secondpolygon{
     clip-path: polygon(0 0, 100% 0%, 80% 100%, 0% 100%);
-    background: url('Photo\ index.png') center top no-repeat;
+    background: url('img/Photo\ index.png') center top no-repeat;
     background-size: cover;
     width: 30%;
     height: 100%;
@@ -302,21 +302,21 @@ position: absolute;
 }
 
 .filrouge{
-    background: url('imagefilrouge.png') center no-repeat;
+    background: url('img/imagefilrouge.png') center no-repeat;
     background-size: cover;
     opacity: 0;
     transform: translateX(80px);
     animation: move 1s 0.5s  forwards;
 }
 .sheinb{
-    background: url('Sheinbimage.png') center no-repeat;
+    background: url('img/Sheinbimage.png') center no-repeat;
     background-size: cover;
     opacity: 0;
     transform: translateX(80px);
     animation: move 1s 0.8s  forwards;
 }
 .eaulyd{
-    background: url('SOON.png') center no-repeat;
+    background: url('img/SOON.png') center no-repeat;
     background-size: cover;
     opacity: 0;
     transform: translateX(80px);
@@ -393,7 +393,7 @@ position: absolute;
 .bgabout{
     width: 70%;
     height: 100%;
-    background: url('DarkMocha.png') no-repeat center;
+    background: url('img/DarkMocha.png') no-repeat center;
     background-size: cover;
     box-shadow: 5px 8px 21px rgba(0, 0, 0, 0.71);
 }
@@ -419,42 +419,42 @@ position: absolute;
 }
 
 .sb1{
-  background: url('Sheinblandigpage1.png') center no-repeat;
+  background: url('img/Sheinblandigpage1.png') center no-repeat;
   background-size: cover;  
   opacity: 0;
   transform: translateX(-40px);
   animation: move 1s 0s  forwards;
 }
 .sb2{
-  background: url('Sheinblandigpage2.png') center no-repeat;
+  background: url('img/Sheinblandigpage2.png') center no-repeat;
   background-size: cover;  
   opacity: 0;
   transform: translateX(-40px);
   animation: move 1s 0s  forwards;
 }
 .sb3{
-  background: url('Sheinblandigpage3.png') center no-repeat;
+  background: url('img/Sheinblandigpage3.png') center no-repeat;
   background-size: cover;  
   opacity: 0;
   transform: translateX(-40px);
   animation: move 1s 0s  forwards;
 }
 .fr1{
-  background: url('fil\ rouge\ 1.png') center no-repeat;
+  background: url('img/fil\ rouge\ 1.png') center no-repeat;
   background-size: cover;  
   opacity: 0;
   transform: translateX(-40px);
   animation: move 1s 0s  forwards;
 }
 .fr2{
-  background: url('filrouge2.png') center no-repeat;
+  background: url('img/filrouge2.png') center no-repeat;
   background-size: cover;  
   opacity: 0;
   transform: translateX(-40px);
   animation: move 1s 0s  forwards;
 }
 .fr3{
-  background: url('filrouge3.png') center no-repeat;
+  background: url('img/filrouge3.png') center no-repeat;
   background-size: cover;  
   opacity: 0;
   transform: translateX(-40px);
@@ -507,28 +507,28 @@ position: absolute;
     box-shadow: none;
 }
 .sb4{
-    background: url('Sheinblandigpage1.png') center no-repeat;
+    background: url('img/Sheinblandigpage1.png') center no-repeat;
     background-size: contain;  
   }
 
   .sb5{
-    background: url('Sheinblandigpage2.png') center no-repeat;
+    background: url('img/Sheinblandigpage2.png') center no-repeat;
     background-size: contain;  
   }
   .sb6{
-    background: url('Sheinblandigpage3.png') center no-repeat;
+    background: url('img/Sheinblandigpage3.png') center no-repeat;
     background-size: contain;  
   }
   .fr4{
-    background: url('fil\ rouge\ 1.png') center no-repeat;
+    background: url('img/fil\ rouge\ 1.png') center no-repeat;
     background-size: cover;  
   }
   .fr5{
-    background: url('filrouge2.png') center no-repeat;
+    background: url('img/filrouge2.png') center no-repeat;
     background-size: cover;  
   }
   .fr6{
-    background: url('filrouge3.png') center no-repeat;
+    background: url('img/filrouge3.png') center no-repeat;
     background-size: cover;  
   }
 
